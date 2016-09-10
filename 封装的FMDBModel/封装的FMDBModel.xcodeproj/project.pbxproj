@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1ABA961BA3BCB000C0F8EF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ABA951BA3BCB000C0F8EF /* User.m */; };
+		8D4D46D31BA2F8A0005DD152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D46D21BA2F8A0005DD152 /* main.m */; };
+		8D4D46D61BA2F8A0005DD152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D46D51BA2F8A0005DD152 /* AppDelegate.m */; };
+		8D4D46DF1BA2F8A0005DD152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D46DD1BA2F8A0005DD152 /* Main.storyboard */; };
+		8D4D46E11BA2F8A0005DD152 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D46E01BA2F8A0005DD152 /* Images.xcassets */; };
+		8D4D46E41BA2F8A0005DD152 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D46E21BA2F8A0005DD152 /* LaunchScreen.xib */; };
+		8D4D46F01BA2F8A0005DD152 /* ___FMDBModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D46EF1BA2F8A0005DD152 /* ___FMDBModelTests.m */; };
+		8D4D46FC1BA2F8D7005DD152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D46FA1BA2F8D7005DD152 /* ViewController.m */; };
+		8D4D46FD1BA2F8D7005DD152 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4D46FB1BA2F8D7005DD152 /* ViewController.xib */; };
+		8D4D470A1BA2FAD9005DD152 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47001BA2FAD9005DD152 /* FMDatabase.m */; };
+		8D4D470B1BA2FAD9005DD152 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47021BA2FAD9005DD152 /* FMDatabaseAdditions.m */; };
+		8D4D470C1BA2FAD9005DD152 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47041BA2FAD9005DD152 /* FMDatabasePool.m */; };
+		8D4D470D1BA2FAD9005DD152 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47061BA2FAD9005DD152 /* FMDatabaseQueue.m */; };
+		8D4D470E1BA2FAD9005DD152 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47091BA2FAD9005DD152 /* FMResultSet.m */; };
+		8D4D47101BA2FAF7005DD152 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4D470F1BA2FAF7005DD152 /* libsqlite3.dylib */; };
+		8D4D47141BA2FB90005DD152 /* StevenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47131BA2FB90005DD152 /* StevenHelper.m */; };
+		8D4D47171BA2FFB7005DD152 /* StevenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4D47161BA2FFB7005DD152 /* StevenModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D4D46EA1BA2F8A0005DD152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4D46C51BA2F8A0005DD152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4D46CC1BA2F8A0005DD152;
+			remoteInfo = "封装的FMDBModel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D1ABA941BA3BCB000C0F8EF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8D1ABA951BA3BCB000C0F8EF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8D4D46CD1BA2F8A0005DD152 /* 封装的FMDBModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "封装的FMDBModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4D46D11BA2F8A0005DD152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4D46D21BA2F8A0005DD152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D4D46D41BA2F8A0005DD152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D4D46D51BA2F8A0005DD152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D4D46DE1BA2F8A0005DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D4D46E01BA2F8A0005DD152 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D4D46E31BA2F8A0005DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8D4D46E91BA2F8A0005DD152 /* 封装的FMDBModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装的FMDBModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4D46EE1BA2F8A0005DD152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4D46EF1BA2F8A0005DD152 /* ___FMDBModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FMDBModelTests.m"; sourceTree = "<group>"; };
+		8D4D46F91BA2F8D7005DD152 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D4D46FA1BA2F8D7005DD152 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D4D46FB1BA2F8D7005DD152 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8D4D46FF1BA2FAD9005DD152 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8D4D47001BA2FAD9005DD152 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8D4D47011BA2FAD9005DD152 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8D4D47021BA2FAD9005DD152 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8D4D47031BA2FAD9005DD152 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8D4D47041BA2FAD9005DD152 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8D4D47051BA2FAD9005DD152 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8D4D47061BA2FAD9005DD152 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8D4D47071BA2FAD9005DD152 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8D4D47081BA2FAD9005DD152 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8D4D47091BA2FAD9005DD152 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8D4D470F1BA2FAF7005DD152 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8D4D47121BA2FB90005DD152 /* StevenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StevenHelper.h; sourceTree = "<group>"; };
+		8D4D47131BA2FB90005DD152 /* StevenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StevenHelper.m; sourceTree = "<group>"; };
+		8D4D47151BA2FFB7005DD152 /* StevenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StevenModel.h; sourceTree = "<group>"; };
+		8D4D47161BA2FFB7005DD152 /* StevenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StevenModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D4D46CA1BA2F8A0005DD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4D47101BA2FAF7005DD152 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4D46E61BA2F8A0005DD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D4D46C41BA2F8A0005DD152 = {
+			isa = PBXGroup;
+			children = (
+				8D4D470F1BA2FAF7005DD152 /* libsqlite3.dylib */,
+				8D4D46CF1BA2F8A0005DD152 /* 封装的FMDBModel */,
+				8D4D46EC1BA2F8A0005DD152 /* 封装的FMDBModelTests */,
+				8D4D46CE1BA2F8A0005DD152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D4D46CE1BA2F8A0005DD152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46CD1BA2F8A0005DD152 /* 封装的FMDBModel.app */,
+				8D4D46E91BA2F8A0005DD152 /* 封装的FMDBModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D4D46CF1BA2F8A0005DD152 /* 封装的FMDBModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46FE1BA2FAD9005DD152 /* FMDB */,
+				8D4D47111BA2FB5D005DD152 /* DBModel */,
+				8D4D47191BA3076D005DD152 /* Models */,
+				8D4D46D41BA2F8A0005DD152 /* AppDelegate.h */,
+				8D4D46D51BA2F8A0005DD152 /* AppDelegate.m */,
+				8D4D46F91BA2F8D7005DD152 /* ViewController.h */,
+				8D4D46FA1BA2F8D7005DD152 /* ViewController.m */,
+				8D4D46FB1BA2F8D7005DD152 /* ViewController.xib */,
+				8D4D46DD1BA2F8A0005DD152 /* Main.storyboard */,
+				8D4D46E01BA2F8A0005DD152 /* Images.xcassets */,
+				8D4D46E21BA2F8A0005DD152 /* LaunchScreen.xib */,
+				8D4D46D01BA2F8A0005DD152 /* Supporting Files */,
+			);
+			path = "封装的FMDBModel";
+			sourceTree = "<group>";
+		};
+		8D4D46D01BA2F8A0005DD152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46D11BA2F8A0005DD152 /* Info.plist */,
+				8D4D46D21BA2F8A0005DD152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D4D46EC1BA2F8A0005DD152 /* 封装的FMDBModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46EF1BA2F8A0005DD152 /* ___FMDBModelTests.m */,
+				8D4D46ED1BA2F8A0005DD152 /* Supporting Files */,
+			);
+			path = "封装的FMDBModelTests";
+			sourceTree = "<group>";
+		};
+		8D4D46ED1BA2F8A0005DD152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46EE1BA2F8A0005DD152 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D4D46FE1BA2FAD9005DD152 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D46FF1BA2FAD9005DD152 /* FMDatabase.h */,
+				8D4D47001BA2FAD9005DD152 /* FMDatabase.m */,
+				8D4D47011BA2FAD9005DD152 /* FMDatabaseAdditions.h */,
+				8D4D47021BA2FAD9005DD152 /* FMDatabaseAdditions.m */,
+				8D4D47031BA2FAD9005DD152 /* FMDatabasePool.h */,
+				8D4D47041BA2FAD9005DD152 /* FMDatabasePool.m */,
+				8D4D47051BA2FAD9005DD152 /* FMDatabaseQueue.h */,
+				8D4D47061BA2FAD9005DD152 /* FMDatabaseQueue.m */,
+				8D4D47071BA2FAD9005DD152 /* FMDB.h */,
+				8D4D47081BA2FAD9005DD152 /* FMResultSet.h */,
+				8D4D47091BA2FAD9005DD152 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = SOURCE_ROOT;
+		};
+		8D4D47111BA2FB5D005DD152 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D4D47121BA2FB90005DD152 /* StevenHelper.h */,
+				8D4D47131BA2FB90005DD152 /* StevenHelper.m */,
+				8D4D47151BA2FFB7005DD152 /* StevenModel.h */,
+				8D4D47161BA2FFB7005DD152 /* StevenModel.m */,
+			);
+			path = DBModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		8D4D47191BA3076D005DD152 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D1ABA941BA3BCB000C0F8EF /* User.h */,
+				8D1ABA951BA3BCB000C0F8EF /* User.m */,
+			);
+			path = Models;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D4D46CC1BA2F8A0005DD152 /* 封装的FMDBModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4D46F31BA2F8A0005DD152 /* Build configuration list for PBXNativeTarget "封装的FMDBModel" */;
+			buildPhases = (
+				8D4D46C91BA2F8A0005DD152 /* Sources */,
+				8D4D46CA1BA2F8A0005DD152 /* Frameworks */,
+				8D4D46CB1BA2F8A0005DD152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "封装的FMDBModel";
+			productName = "封装的FMDBModel";
+			productReference = 8D4D46CD1BA2F8A0005DD152 /* 封装的FMDBModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D4D46E81BA2F8A0005DD152 /* 封装的FMDBModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4D46F61BA2F8A0005DD152 /* Build configuration list for PBXNativeTarget "封装的FMDBModelTests" */;
+			buildPhases = (
+				8D4D46E51BA2F8A0005DD152 /* Sources */,
+				8D4D46E61BA2F8A0005DD152 /* Frameworks */,
+				8D4D46E71BA2F8A0005DD152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D4D46EB1BA2F8A0005DD152 /* PBXTargetDependency */,
+			);
+			name = "封装的FMDBModelTests";
+			productName = "封装的FMDBModelTests";
+			productReference = 8D4D46E91BA2F8A0005DD152 /* 封装的FMDBModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D4D46C51BA2F8A0005DD152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qugo;
+				TargetAttributes = {
+					8D4D46CC1BA2F8A0005DD152 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8D4D46E81BA2F8A0005DD152 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8D4D46CC1BA2F8A0005DD152;
+					};
+				};
+			};
+			buildConfigurationList = 8D4D46C81BA2F8A0005DD152 /* Build configuration list for PBXProject "封装的FMDBModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D4D46C41BA2F8A0005DD152;
+			productRefGroup = 8D4D46CE1BA2F8A0005DD152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D4D46CC1BA2F8A0005DD152 /* 封装的FMDBModel */,
+				8D4D46E81BA2F8A0005DD152 /* 封装的FMDBModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D4D46CB1BA2F8A0005DD152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4D46DF1BA2F8A0005DD152 /* Main.storyboard in Resources */,
+				8D4D46E41BA2F8A0005DD152 /* LaunchScreen.xib in Resources */,
+				8D4D46FD1BA2F8D7005DD152 /* ViewController.xib in Resources */,
+				8D4D46E11BA2F8A0005DD152 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4D46E71BA2F8A0005DD152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D4D46C91BA2F8A0005DD152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4D46FC1BA2F8D7005DD152 /* ViewController.m in Sources */,
+				8D4D47141BA2FB90005DD152 /* StevenHelper.m in Sources */,
+				8D4D470C1BA2FAD9005DD152 /* FMDatabasePool.m in Sources */,
+				8D4D46D61BA2F8A0005DD152 /* AppDelegate.m in Sources */,
+				8D4D470D1BA2FAD9005DD152 /* FMDatabaseQueue.m in Sources */,
+				8D4D46D31BA2F8A0005DD152 /* main.m in Sources */,
+				8D1ABA961BA3BCB000C0F8EF /* User.m in Sources */,
+				8D4D470A1BA2FAD9005DD152 /* FMDatabase.m in Sources */,
+				8D4D470E1BA2FAD9005DD152 /* FMResultSet.m in Sources */,
+				8D4D47171BA2FFB7005DD152 /* StevenModel.m in Sources */,
+				8D4D470B1BA2FAD9005DD152 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4D46E51BA2F8A0005DD152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4D46F01BA2F8A0005DD152 /* ___FMDBModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D4D46EB1BA2F8A0005DD152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D4D46CC1BA2F8A0005DD152 /* 封装的FMDBModel */;
+			targetProxy = 8D4D46EA1BA2F8A0005DD152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D4D46DD1BA2F8A0005DD152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4D46DE1BA2F8A0005DD152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4D46E21BA2F8A0005DD152 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4D46E31BA2F8A0005DD152 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D4D46F11BA2F8A0005DD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D4D46F21BA2F8A0005DD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D4D46F41BA2F8A0005DD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "封装的FMDBModel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D4D46F51BA2F8A0005DD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "封装的FMDBModel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D4D46F71BA2F8A0005DD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "封装的FMDBModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装的FMDBModel.app/封装的FMDBModel";
+			};
+			name = Debug;
+		};
+		8D4D46F81BA2F8A0005DD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "封装的FMDBModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装的FMDBModel.app/封装的FMDBModel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D4D46C81BA2F8A0005DD152 /* Build configuration list for PBXProject "封装的FMDBModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4D46F11BA2F8A0005DD152 /* Debug */,
+				8D4D46F21BA2F8A0005DD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4D46F31BA2F8A0005DD152 /* Build configuration list for PBXNativeTarget "封装的FMDBModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4D46F41BA2F8A0005DD152 /* Debug */,
+				8D4D46F51BA2F8A0005DD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4D46F61BA2F8A0005DD152 /* Build configuration list for PBXNativeTarget "封装的FMDBModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4D46F71BA2F8A0005DD152 /* Debug */,
+				8D4D46F81BA2F8A0005DD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D4D46C51BA2F8A0005DD152 /* Project object */;
+}
